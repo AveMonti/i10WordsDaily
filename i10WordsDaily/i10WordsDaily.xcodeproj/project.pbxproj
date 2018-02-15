@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F84FFA26D71B1954A84C6A6 /* Pods_i10WordsDaily.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB05B93BE21539C7A24C37EE /* Pods_i10WordsDaily.framework */; };
+		D359C5552035FF4E006764A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D359C5542035FF4E006764A5 /* AppDelegate.swift */; };
+		D359C5572035FF4E006764A5 /* WeekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D359C5562035FF4E006764A5 /* WeekViewController.swift */; };
+		D359C55A2035FF4E006764A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D359C5582035FF4E006764A5 /* Main.storyboard */; };
+		D359C55C2035FF4E006764A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D359C55B2035FF4E006764A5 /* Assets.xcassets */; };
+		D359C55F2035FF4E006764A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D359C55D2035FF4E006764A5 /* LaunchScreen.storyboard */; };
+		D359C5682036010E006764A5 /* WeekModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D359C5672036010E006764A5 /* WeekModel.swift */; };
+		D359C56A20360442006764A5 /* WordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D359C56920360442006764A5 /* WordModel.swift */; };
+		D359C56C2036085D006764A5 /* RealmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D359C56B2036085D006764A5 /* RealmService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		327E2BC5C2A6EA2A5D73C78D /* Pods-i10WordsDaily.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-i10WordsDaily.release.xcconfig"; path = "Pods/Target Support Files/Pods-i10WordsDaily/Pods-i10WordsDaily.release.xcconfig"; sourceTree = "<group>"; };
+		73DE7C55361C670FF161F31A /* Pods-i10WordsDaily.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-i10WordsDaily.debug.xcconfig"; path = "Pods/Target Support Files/Pods-i10WordsDaily/Pods-i10WordsDaily.debug.xcconfig"; sourceTree = "<group>"; };
+		BB05B93BE21539C7A24C37EE /* Pods_i10WordsDaily.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_i10WordsDaily.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D359C5512035FF4E006764A5 /* i10WordsDaily.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = i10WordsDaily.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D359C5542035FF4E006764A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D359C5562035FF4E006764A5 /* WeekViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekViewController.swift; sourceTree = "<group>"; };
+		D359C5592035FF4E006764A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D359C55B2035FF4E006764A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D359C55E2035FF4E006764A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D359C5602035FF4E006764A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D359C5672036010E006764A5 /* WeekModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekModel.swift; sourceTree = "<group>"; };
+		D359C56920360442006764A5 /* WordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordModel.swift; sourceTree = "<group>"; };
+		D359C56B2036085D006764A5 /* RealmService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D359C54E2035FF4D006764A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F84FFA26D71B1954A84C6A6 /* Pods_i10WordsDaily.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4908907EBF5966BB6DC5516D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73DE7C55361C670FF161F31A /* Pods-i10WordsDaily.debug.xcconfig */,
+				327E2BC5C2A6EA2A5D73C78D /* Pods-i10WordsDaily.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D359C5482035FF4D006764A5 = {
+			isa = PBXGroup;
+			children = (
+				D359C566203600E8006764A5 /* realmModel */,
+				D359C5532035FF4E006764A5 /* i10WordsDaily */,
+				D359C5522035FF4E006764A5 /* Products */,
+				4908907EBF5966BB6DC5516D /* Pods */,
+				E3C61350FB679FD4CC8A6635 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D359C5522035FF4E006764A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D359C5512035FF4E006764A5 /* i10WordsDaily.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D359C5532035FF4E006764A5 /* i10WordsDaily */ = {
+			isa = PBXGroup;
+			children = (
+				D359C5542035FF4E006764A5 /* AppDelegate.swift */,
+				D359C5562035FF4E006764A5 /* WeekViewController.swift */,
+				D359C5582035FF4E006764A5 /* Main.storyboard */,
+				D359C55B2035FF4E006764A5 /* Assets.xcassets */,
+				D359C55D2035FF4E006764A5 /* LaunchScreen.storyboard */,
+				D359C5602035FF4E006764A5 /* Info.plist */,
+			);
+			path = i10WordsDaily;
+			sourceTree = "<group>";
+		};
+		D359C566203600E8006764A5 /* realmModel */ = {
+			isa = PBXGroup;
+			children = (
+				D359C5672036010E006764A5 /* WeekModel.swift */,
+				D359C56920360442006764A5 /* WordModel.swift */,
+				D359C56B2036085D006764A5 /* RealmService.swift */,
+			);
+			path = realmModel;
+			sourceTree = "<group>";
+		};
+		E3C61350FB679FD4CC8A6635 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB05B93BE21539C7A24C37EE /* Pods_i10WordsDaily.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D359C5502035FF4D006764A5 /* i10WordsDaily */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D359C5632035FF4E006764A5 /* Build configuration list for PBXNativeTarget "i10WordsDaily" */;
+			buildPhases = (
+				515314DE11978F13491C12C9 /* [CP] Check Pods Manifest.lock */,
+				D359C54D2035FF4D006764A5 /* Sources */,
+				D359C54E2035FF4D006764A5 /* Frameworks */,
+				D359C54F2035FF4D006764A5 /* Resources */,
+				97AF7B178BF3DF6ED5540968 /* [CP] Embed Pods Frameworks */,
+				640107CB0A94188136DE43F6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = i10WordsDaily;
+			productName = i10WordsDaily;
+			productReference = D359C5512035FF4E006764A5 /* i10WordsDaily.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D359C5492035FF4D006764A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Mateusz Chojnacki";
+				TargetAttributes = {
+					D359C5502035FF4D006764A5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D359C54C2035FF4D006764A5 /* Build configuration list for PBXProject "i10WordsDaily" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D359C5482035FF4D006764A5;
+			productRefGroup = D359C5522035FF4E006764A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D359C5502035FF4D006764A5 /* i10WordsDaily */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D359C54F2035FF4D006764A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D359C55F2035FF4E006764A5 /* LaunchScreen.storyboard in Resources */,
+				D359C55C2035FF4E006764A5 /* Assets.xcassets in Resources */,
+				D359C55A2035FF4E006764A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		515314DE11978F13491C12C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-i10WordsDaily-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		640107CB0A94188136DE43F6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-i10WordsDaily/Pods-i10WordsDaily-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97AF7B178BF3DF6ED5540968 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-i10WordsDaily/Pods-i10WordsDaily-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-i10WordsDaily/Pods-i10WordsDaily-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D359C54D2035FF4D006764A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D359C5572035FF4E006764A5 /* WeekViewController.swift in Sources */,
+				D359C5682036010E006764A5 /* WeekModel.swift in Sources */,
+				D359C5552035FF4E006764A5 /* AppDelegate.swift in Sources */,
+				D359C56A20360442006764A5 /* WordModel.swift in Sources */,
+				D359C56C2036085D006764A5 /* RealmService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D359C5582035FF4E006764A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D359C5592035FF4E006764A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D359C55D2035FF4E006764A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D359C55E2035FF4E006764A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D359C5612035FF4E006764A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D359C5622035FF4E006764A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D359C5642035FF4E006764A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73DE7C55361C670FF161F31A /* Pods-i10WordsDaily.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VP3J745N58;
+				INFOPLIST_FILE = i10WordsDaily/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mattChojnacki.i10WordsDaily;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D359C5652035FF4E006764A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 327E2BC5C2A6EA2A5D73C78D /* Pods-i10WordsDaily.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VP3J745N58;
+				INFOPLIST_FILE = i10WordsDaily/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mattChojnacki.i10WordsDaily;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D359C54C2035FF4D006764A5 /* Build configuration list for PBXProject "i10WordsDaily" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D359C5612035FF4E006764A5 /* Debug */,
+				D359C5622035FF4E006764A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D359C5632035FF4E006764A5 /* Build configuration list for PBXNativeTarget "i10WordsDaily" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D359C5642035FF4E006764A5 /* Debug */,
+				D359C5652035FF4E006764A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D359C5492035FF4D006764A5 /* Project object */;
+}
