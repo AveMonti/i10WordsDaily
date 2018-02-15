@@ -16,6 +16,9 @@
 		D359C5682036010E006764A5 /* WeekModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D359C5672036010E006764A5 /* WeekModel.swift */; };
 		D359C56A20360442006764A5 /* WordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D359C56920360442006764A5 /* WordModel.swift */; };
 		D359C56C2036085D006764A5 /* RealmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D359C56B2036085D006764A5 /* RealmService.swift */; };
+		D359C56F20361346006764A5 /* WeekTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D359C56E20361346006764A5 /* WeekTableViewCell.swift */; };
+		D3FA6A7420362F35004EEE99 /* WordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FA6A7320362F35004EEE99 /* WordViewController.swift */; };
+		D3FA6A7820363375004EEE99 /* WordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FA6A7720363375004EEE99 /* WordTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		D359C5672036010E006764A5 /* WeekModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekModel.swift; sourceTree = "<group>"; };
 		D359C56920360442006764A5 /* WordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordModel.swift; sourceTree = "<group>"; };
 		D359C56B2036085D006764A5 /* RealmService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmService.swift; sourceTree = "<group>"; };
+		D359C56E20361346006764A5 /* WeekTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekTableViewCell.swift; sourceTree = "<group>"; };
+		D3FA6A7320362F35004EEE99 /* WordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordViewController.swift; sourceTree = "<group>"; };
+		D3FA6A7720363375004EEE99 /* WordTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		D359C5482035FF4D006764A5 = {
 			isa = PBXGroup;
 			children = (
+				D359C56D20361026006764A5 /* cellModel */,
 				D359C566203600E8006764A5 /* realmModel */,
 				D359C5532035FF4E006764A5 /* i10WordsDaily */,
 				D359C5522035FF4E006764A5 /* Products */,
@@ -79,6 +86,7 @@
 			children = (
 				D359C5542035FF4E006764A5 /* AppDelegate.swift */,
 				D359C5562035FF4E006764A5 /* WeekViewController.swift */,
+				D3FA6A7320362F35004EEE99 /* WordViewController.swift */,
 				D359C5582035FF4E006764A5 /* Main.storyboard */,
 				D359C55B2035FF4E006764A5 /* Assets.xcassets */,
 				D359C55D2035FF4E006764A5 /* LaunchScreen.storyboard */,
@@ -95,6 +103,15 @@
 				D359C56B2036085D006764A5 /* RealmService.swift */,
 			);
 			path = realmModel;
+			sourceTree = "<group>";
+		};
+		D359C56D20361026006764A5 /* cellModel */ = {
+			isa = PBXGroup;
+			children = (
+				D359C56E20361346006764A5 /* WeekTableViewCell.swift */,
+				D3FA6A7720363375004EEE99 /* WordTableViewCell.swift */,
+			);
+			path = cellModel;
 			sourceTree = "<group>";
 		};
 		E3C61350FB679FD4CC8A6635 /* Frameworks */ = {
@@ -237,6 +254,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D359C5572035FF4E006764A5 /* WeekViewController.swift in Sources */,
+				D3FA6A7820363375004EEE99 /* WordTableViewCell.swift in Sources */,
+				D359C56F20361346006764A5 /* WeekTableViewCell.swift in Sources */,
+				D3FA6A7420362F35004EEE99 /* WordViewController.swift in Sources */,
 				D359C5682036010E006764A5 /* WeekModel.swift in Sources */,
 				D359C5552035FF4E006764A5 /* AppDelegate.swift in Sources */,
 				D359C56A20360442006764A5 /* WordModel.swift in Sources */,

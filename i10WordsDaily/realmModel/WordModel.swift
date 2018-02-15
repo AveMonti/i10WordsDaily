@@ -12,7 +12,7 @@ import RealmSwift
 class WordModel : Object{
         @objc dynamic var wordPL = ""
         @objc dynamic var wordENG = ""
-        @objc dynamic var isDone: Bool = false
+        @objc dynamic var isPL: Bool = false
     
         convenience init(wordPL: String, wordENG: String) {
             self.init()

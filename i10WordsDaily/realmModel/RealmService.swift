@@ -46,7 +46,7 @@ class RealmService{
     func update(weekModel: WeekModel,listName: String){
         do{
             try realm.write {
-                if(listName == ""){
+                if(listName != ""){
                     weekModel.listName = listName
                 }
             }
@@ -93,7 +93,15 @@ class RealmService{
         }
     }
     
-    
+    func updateIsPL(weekModel: WeekModel, index : Int, isPL: Bool ){
+        do{
+            try realm.write {
+                    weekModel.listTenWord[index].isPL = isPL
+            }
+        } catch let error as NSError{
+            post(error)
+        }
+    }
     
     
     /// Notyfication Center
