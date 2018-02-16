@@ -101,9 +101,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="p1h-Zm-UC8">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="p1h-Zm-UC8">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="wordCell" rowHeight="69" id="bsJ-Y5-mLi" customClass="WordTableViewCell" customModule="i10WordsDaily" customModuleProvider="target">
@@ -121,12 +120,13 @@
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aaz-w6-KOZ">
                                                             <rect key="frame" x="5" y="10" width="325" height="29"/>
+                                                            <color key="backgroundColor" red="0.99187561967135274" green="0.99919399926058505" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                     </subviews>
-                                                    <color key="backgroundColor" white="1" alpha="0.71608164612676062" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="backgroundColor" white="1" alpha="0.17677834989388394" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
                                                         <constraint firstItem="Aaz-w6-KOZ" firstAttribute="leading" secondItem="sVC-aq-ANr" secondAttribute="leading" constant="5" id="5iO-Ot-qH1"/>
                                                         <constraint firstAttribute="trailing" secondItem="Aaz-w6-KOZ" secondAttribute="trailing" constant="5" id="Eby-ir-zKq"/>
@@ -157,8 +157,27 @@
                                     <outlet property="delegate" destination="M7b-3E-k9H" id="AQf-Kk-Qx4"/>
                                 </connections>
                             </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iJj-Xb-6Ti">
+                                <rect key="frame" x="155" y="617" width="65" height="30"/>
+                                <color key="backgroundColor" red="0.58393865206078943" green="0.49737337355714184" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="ADD">
+                                    <color key="titleColor" red="0.99187561967135274" green="0.99919399926058505" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="addButton:" destination="M7b-3E-k9H" eventType="touchUpInside" id="gGY-XA-rde"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="p1h-Zm-UC8" firstAttribute="bottom" secondItem="wSm-Gi-xGY" secondAttribute="bottom" id="5WX-hB-zIv"/>
+                            <constraint firstItem="p1h-Zm-UC8" firstAttribute="trailing" secondItem="wSm-Gi-xGY" secondAttribute="trailing" id="IcG-go-ZMF"/>
+                            <constraint firstItem="p1h-Zm-UC8" firstAttribute="leading" secondItem="wSm-Gi-xGY" secondAttribute="leading" id="JqI-WE-Ejp"/>
+                            <constraint firstItem="p1h-Zm-UC8" firstAttribute="top" secondItem="KR4-w0-3Ib" secondAttribute="top" id="Vck-xZ-dRR"/>
+                            <constraint firstItem="wSm-Gi-xGY" firstAttribute="trailing" secondItem="iJj-Xb-6Ti" secondAttribute="trailing" constant="155" id="drL-wm-y25"/>
+                            <constraint firstItem="iJj-Xb-6Ti" firstAttribute="leading" secondItem="wSm-Gi-xGY" secondAttribute="leading" constant="155" id="eiL-GP-nvi"/>
+                            <constraint firstItem="wSm-Gi-xGY" firstAttribute="bottom" secondItem="iJj-Xb-6Ti" secondAttribute="bottom" constant="20" id="wFg-TF-xkD"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="wSm-Gi-xGY"/>
                     </view>
                     <connections>
