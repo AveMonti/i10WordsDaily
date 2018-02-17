@@ -105,21 +105,21 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="wordCell" rowHeight="69" id="bsJ-Y5-mLi" customClass="WordTableViewCell" customModule="i10WordsDaily" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="69"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="wordCell" rowHeight="51" id="bsJ-Y5-mLi" customClass="WordTableViewCell" customModule="i10WordsDaily" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="51"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="bsJ-Y5-mLi" id="Zw2-FC-yIn">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="68.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="50.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flagGB" translatesAutoresizingMaskIntoConstraints="NO" id="V1h-LZ-4IX">
-                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="69"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flagGB" translatesAutoresizingMaskIntoConstraints="NO" id="V1h-LZ-4IX">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="50.5"/>
                                                 </imageView>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sVC-aq-ANr">
-                                                    <rect key="frame" x="20" y="10" width="335" height="48.5"/>
+                                                    <rect key="frame" x="20" y="10" width="335" height="30.5"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aaz-w6-KOZ">
-                                                            <rect key="frame" x="5" y="10" width="325" height="29"/>
+                                                            <rect key="frame" x="5" y="10" width="325" height="11"/>
                                                             <color key="backgroundColor" red="0.99187561967135274" green="0.99919399926058505" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <nil key="textColor"/>

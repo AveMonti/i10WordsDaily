@@ -79,7 +79,7 @@ class WordViewController: UIViewController, UITableViewDelegate, UITableViewData
         let alert = UIAlertController(title: "New list", message: "Add the name of your task list ", preferredStyle: UIAlertControllerStyle.alert)
         let action = UIAlertAction(title: "Add", style: .default) { (alertAction) in
             let textFieldPL = alert.textFields![0] as UITextField
-            let textFieldENG = alert.textFields![0] as UITextField
+            let textFieldENG = alert.textFields![1] as UITextField
             if (index != nil){
                 
                 self.realm.updateWord(weekModel: self.currentWeek, index: index!, wordPL: textFieldPL.text!, wordENG: textFieldENG.text!)
